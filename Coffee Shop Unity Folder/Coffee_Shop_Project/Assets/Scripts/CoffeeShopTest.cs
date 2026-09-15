@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class CoffeeShopTest : MonoBehaviour
 {
-    Random rnd = new Random();
-    public int coffeeSold = rnd.Next(1, 13);
+    public int coffeeSold = 0;
 
     public float coffeePrice = 3.50f;
 
